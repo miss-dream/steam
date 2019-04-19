@@ -1,0 +1,292 @@
+
+.content{
+	width: 100%;
+    padding: 40px 0 140px 0;
+    background: url(../img/beijing.png);
+}
+.head{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+.h5{
+	margin: 0 auto;
+	width: 840px;
+	border-bottom: 2px solid black;
+}
+.head_left{
+	float:left;
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	line-height:35px ;
+	margin-left: 180px;
+}
+.head_left span{
+	font-size: 18px;
+	color: white;
+}
+.head_center{
+	float:left;
+	width:30px;
+	height:35px;
+}
+.head_center img{
+	width: 8px;
+	height: 8px;
+	padding: 13px 8px 13px 14px;
+}
+.head_center_right{
+	float:left;
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	background-color:forestgreen;
+	line-height: 35px;
+	margin-left: 18px;
+	border-radius: 2px;
+}
+.head_center_right span{
+	font-size: 16px;
+	color:white;
+}
+.head_right{
+	float: right;
+	width: 176px;
+	height: 44px;
+	margin-right: 180px;
+}
+
+.middle{
+	width: 840px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.mid_left{
+	float: left;
+	width: 540px;
+	height: 500px;
+	
+}
+.mid_left_top{
+	width: 540px;
+	height: 65px;
+	position: relative;
+	line-height: 65px;
+	background:rgba(0, 0, 0,0.2);
+}
+.mid_left_top_img{
+	width:100px ;
+	height: 40px;
+	position: absolute;
+	left:10px;
+	top:12px;
+}
+.mid_left_top_img img{
+	width:100px ;
+	height: 40px;
+}
+.mid_left_top_text{
+	width:340px ;
+	height: 65px;
+	position: absolute;
+	left:120px;
+}
+.mid_left_top_text span{
+	color:gainsboro ;
+}
+.mid_left_top_price{
+	float: right;
+	width: 80px;
+	height: 65px;
+}
+.mid_left_top_price span{
+	padding-left: 10px;
+	color:gainsboro;
+}
+.mid_left_bottom{
+	width: 540px; 
+	height: 380px;
+	position: relative;
+	margin-top: 5px;
+	background:rgba(0, 0, 0,0.2);
+}
+
+.mid_left_bottom_list1{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	top:20px;
+	left:290px;
+	color: gainsboro;
+	text-align:right;
+}
+.mid_left_bottom_list2{
+	width: 90px;
+	height: 20px;
+	position: absolute;
+	top:20px;
+	left:440px;
+	color: gainsboro;
+	text-align:right;
+}
+.mid_left_bottom_list3{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	top:40px;
+	left:290px;
+	color: gainsboro;
+	text-align:right;
+}
+.mid_left_bottom_list4{
+	width: 90px;
+	height: 20px;
+	position: absolute;
+	top:40px;
+	left:440px;
+	color: gainsboro;
+	text-align:right;
+}
+.hr1{
+	position: absolute;
+	top:55px;
+	left:10px;
+	width:520px ;
+	border-bottom: 1px solid grey;
+}
+
+.mid_left_bottom_list5{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	top:70px;
+	left:290px;
+	color: gainsboro;
+	text-align:right;
+}
+.mid_left_bottom_list6{
+	width: 90px;
+	height: 20px;
+	position: absolute;
+	top:70px;
+	left:440px;
+	color: gainsboro;
+	text-align:right;
+}
+.hr2{
+	position: absolute;
+	top:90px;
+	left:10px;
+	width:520px ;
+	border-bottom: 1px dashed gray;
+}
+.table1{
+	width: 340px;
+	height: 90px;
+	position: absolute;
+	top:110px;
+	left:10px;
+	color: gainsboro;
+	text-align:left;
+}
+.hr3{
+	position: absolute;
+	top:200px;
+	left:10px;
+	width:520px ;
+	border-bottom: 1px solid dimgray;;
+}
+.checkbox1{
+	position: absolute;
+	top:220px;
+	left:10px;
+	color: gainsboro;
+}
+.mid_left_bottom_list7{
+	width: 500px;
+	height: 30px;
+	position: absolute;
+	top:260px;
+	left:20px;
+	text-align: center;
+	line-height: 30px;
+	color: gainsboro;
+	background:rgba(0,0,0,0.3) ;
+}
+
+.foot{
+	width: 540px;
+	height: 30px;
+	position: absolute;
+	top:390px;
+}
+.foot span{
+	color:  gainsboro;
+}
+.mid_right{
+	background:rgba(0,0,0,0.2) ;
+	float: left;
+	width:280px;
+	height: 320px;
+	margin-left: 20px;
+	border-radius: 4px;
+}
+.mid_right_top{
+	width:280px;
+	height: 28px;
+	border-bottom:1px solid dimgray;
+	line-height: 28px;
+}
+.mid_right_top span{
+	padding-left:10px ;
+	font-size: 16px;
+	font-weight: bold;
+	color: gainsboro;
+}
+.mid_right_top1{
+	width: 280px;
+	height: 100px;
+	border-bottom:1px solid dimgray;
+}
+.mid_right_top1_text{
+	font-size: 12px;
+	color: gainsboro;
+	margin: 20px 10px 20px 10px;
+}
+.mid_right_top2{
+	width:280px;
+	height: 28px;
+	border-bottom:1px solid dimgray;
+	line-height: 28px;
+}
+.mid_right_top2 span{
+	padding-left: 10px;
+	font-size: 16px;
+	color: gainsboro;
+}
+.mid_right_top3{
+	width: 280px;
+	height: 180px;
+}
+.mid_right_top3_text{
+	font-size: 12px;
+	color: gainsboro;
+	margin: 20px 10px 20px 10px;
+}
+.display_flex {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    color: #67c1f5 !important;
+    border: 0px;
+    height: 28px;
+    width: 100px;
+    font-size: 18px;
+    background: rgb(15, 77, 106);
+	position: relative;
+    top: 331px;
+    left: 419px;
+}

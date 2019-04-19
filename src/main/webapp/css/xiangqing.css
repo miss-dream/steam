@@ -1,0 +1,295 @@
+#bodyer {
+	background-image: url(../img/beijing.png);
+	background-size: 100% 100%;
+	padding: 31px 163px;
+}
+
+/* 购物车 */
+.cart_number {
+	background-image: url(../img/background_cart.jpg);
+	background-position: -34px 30px;
+	display: inline-block;
+	padding: 0 25px;
+	margin: 2px 1px;
+	color: #a4d007;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	position: relative;
+	left: 816px;
+}
+
+#body_1 {
+	margin: 20px 0;
+	width: 940px;
+}
+
+.game_style {
+	color: #8f98a0;
+	font-size: 12px;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: normal;
+}
+
+.body_1_0 {
+	display: flex;
+	align-items: center;
+}
+
+.game_name {
+	color: white;
+	font-family: Motiva Sans, Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	line-height: 32px;
+	text-overflow: ellipsis;
+	display: inline-block;
+	margin-right: auto;
+}
+
+.community_center {
+	padding: 0 15px;
+	font-size: 15px;
+	line-height: 30px;
+	border-radius: 2px;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none !important;
+	color: #67c1f5 !important;
+	background: rgba(103, 193, 245, 0.2);
+}
+
+#body_2 {
+	width: 940px;
+	display: flex;
+	background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(0, 0,
+		0, 0)), color-stop(100%, rgba(0, 0, 0, 0.4)));
+}
+
+.body_2_1 {
+	width: 600px;
+	height: 375px;
+	margin-right: auto;
+}
+
+.switch {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.switch div span {
+	color: #67c1f5;
+	padding: 7px 20px;
+	background-color: rgba(35, 60, 81, 0.4);
+}
+
+#body_2_2 {
+	width: 335px;
+	height: 340px;
+}
+
+.img_suo {
+	width: 334px;
+	height: 112px;
+}
+
+.body_2_2_1 {
+	font-size: 5px;
+	width: 335px;
+	height: 340px;
+	color: #c6d4df;
+}
+
+#body_3 {
+	width: 908px;
+	padding: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #c6d4df;
+	font-size: 12px;
+	background: rgba(0, 0, 0, 0.2);
+	margin-bottom: 16px;
+}
+
+#body_4 {
+	width: 940px;
+	padding: 20px 0;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#body_4_left {
+	padding: 0 15px;
+}
+
+.every_game_name p {
+	font-size: 21px;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+	margin: 0;
+	width: 678px;
+	font-weight: normal;
+}
+
+.game_introduce {
+	color: #7cb8e4;
+	font-size: 12px;
+}
+
+.every_game_cart {
+	display: flex;
+	align-items: center;
+	margin: 15px 10px;
+	justify-content: flex-end;
+}
+
+.every_game_price {
+	color: #acdbf5;
+	font-size: 25px;
+	margin: 0 13px;
+}
+
+.every_game_add span {
+	font-size: 15px;
+	display: inline-block;
+	padding: 10px;
+	color: #D2E885 !important;
+	border-radius: 2px;
+	background: linear-gradient(to bottom, rgba(121, 153, 5, 1) 5%,
+		rgba(83, 105, 4, 1) 95%);
+}
+
+#body_4_right {
+	
+}
+
+#body_4_right h1 {
+	color: #fff;
+	font-size: 16px;
+	padding: 0 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.game_commont {
+	margin: 10px 0;
+	color: #67c1f5;
+}
+
+.single {
+	display: flex;
+	align-items: center;
+}
+
+.single span {
+	width: 180px;
+	min-height: 22px;
+	padding-top: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	line-height: 18px;
+	background: rgba(103, 193, 245, 0.1);
+	color: #67c1f5;
+	display: block;
+	border-radius: 1px;
+}
+
+.language {
+	margin: 20px 0;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%,
+		rgba(0, 0, 0, 0.5) 100%);
+}
+
+.language .title {
+	font-size: 12px;
+	color: #8f98a0;
+	margin-bottom: 2px;
+	padding: 10px 12px;
+}
+
+.language table {
+	width: 100%;
+	color: #8f98a0;
+	text-align: center;
+	font-size: 12px;
+}
+
+.game_info {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	color: #61686d;
+	font-weight: normal;
+}
+
+/**************************************************************/
+#body_5 {
+	width: 940px;
+	margin: 20px 0;
+}
+
+#body_5 h1 {
+	font-family: "Motiva Sans", Sans-serif;
+	font-size: 23px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 0 10px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	padding-top: 2px;
+}
+
+.game_about {
+	line-height: 1.5em;
+	font-size: 14px;
+	margin-top: 30px;
+	color: #acb2b8;
+	overflow: hidden;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: normal;
+}
+
+.game_about img {
+	width: 940px;
+	height: auto;
+}
+
+#img {
+	width: 600px;
+	height: 337px;
+}
+
+/* 图标 */
+@font-face {
+	font-family: "iconfont";
+	src: url('iconfont.eot?t=1552139967079');
+	/* IE9 */
+	src: url('iconfont.eot?t=1552139967079#iefix')
+		format('embedded-opentype'), /* IE6-IE8 */  
+		
+		
+		url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAKMAAsAAAAABmwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgpQYgE2AiQDDAsIAAQgBYRtBzobrAXIHpIkJaogQYB2BkgAIB6+9mN/7u6+RaVBEo1E0ekk1URIJCoJSqUkSiUU/5H5Dbmay/v/EozHHR+WUWXWob3LfeAymy2NB1K+yrRClnWz1/Hc57mc3gQ6kLvqA+W09n5+1AswnhzoHhhFViIJesPYBS7hMYF2oyydjfXdUzGisFYF4lqrWIzkUorCqq1CrTlYxINGa7pLb4T78PvxTxAjJE1mbdy8WsvE4mu81nz7d+vAJ6QJ8HiDjDlCIY5qSzt6gnE97aaB9uaqCGmu7N8foUr/w6sqkiAqq7MTTMFy4jVcVWqucKkAGe5OPcoyDNnBC0PUen6k5CGaQ6mOshn7qRd76ungSPwlayMCf1/pJXeFvwgE34TH0wv/WzsKeH78CST/vor+bVolmPq/qHv2FF1ruXNRVa7KjGS1RyABFTzqjxXr9zneNnTuWmg1NCLWYuQ+Iq3GUrKwc2h0mEfVahntZm0c7zCA9ERpw4xbgNDrFUm3J2S93snCfqAx7B9Vb/TQbisGLuwwEXpsnTBmzCC5AZ2aWjpeHou6j1FdlDFltSF/jtTqLPiOV6xuYI00x5b2UgXMEiSZCtbBc1iWBhoyfUzZyZmb0HVl3Zuc1FRizDqCYgxlQOIG0FJGTfqD2Vjp88eQcqEUoxZRTf4cIi09O/A5vB7khqnuJbqXV1qXlABjEpCIUQHrYB4qlQzQ1M/rQynmyEcUGiHX7if7mpz1LdX3HYJ21lU5UuQoWk5t0irnoZsL4ziFAAAAAA==')
+		format('woff2'), url('iconfont.woff?t=1552139967079') format('woff'),
+		url('iconfont.ttf?t=1552139967079') format('truetype'),
+		/* chrome, firefox, opera, Safari, Android, iOS 4.2+ */ 
+		 url('iconfont.svg?t=1552139967079#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-you:before {
+	content: "\e606";
+}
+
+.icon-zuo:before {
+	content: "\e601";
+}

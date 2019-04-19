@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.max-div {
+	display: grid;
+	padding: 10px 29px;
+}

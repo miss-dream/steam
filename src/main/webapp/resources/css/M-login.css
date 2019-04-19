@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+	background: url(/steam/img/beijing.png);
+}
+
+.middle-box {
+	max-width: 400px;
+	z-index: 100;
+	margin: 0 auto;
+	padding-top: 125px;
+}
+
+img {
+	margin: 0 0 30px 0;
+}
+
+h3 {
+	color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: #FFFFFF;
+} 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #155186;
+    border-color: #155186;
+    color: #FFFFFF;
+}

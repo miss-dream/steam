@@ -1,0 +1,273 @@
+.page_pody {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/beijing.png);
+	display: inline-block;
+}
+
+.page_body_da {
+	width: 940px;
+	margin: 40px auto;
+}
+
+.cart_number {
+	background-image: url(../img/background_cart.jpg);
+	background-position: -34px 30px;
+	display: inline-block;
+	padding: 0 25px;
+	margin: 2px 1px;
+	color: #a4d007;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	position: relative;
+	left: 816px;
+}
+
+.p_b_r_t {
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.cart_title {
+	height: 88px;
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+.cart_content {
+	display: flex;
+}
+
+.cart_content_left {
+	width: 70%;
+	margin-right: auto;
+}
+
+.cart_content_left_top {
+	background-color: rgb(22, 32, 45);
+}
+
+.cart_goods {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	border-bottom: 1px solid #194660;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cart_img {
+	width: auto;
+	height: 45px;
+	background-color: #000000;
+}
+
+.goods_name {
+	font-size: 12px;
+	color: #c7d5e0;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.goods_price {
+	margin-left: auto;
+}
+
+.goods_price p {
+	color: #c7d5e0;
+	font-size: 14px;
+}
+
+.remove_goods {
+	color: #56707f;
+	text-decoration: underline;
+}
+
+.goods_total {
+	margin: 0 15px;
+	padding: 15px 0;
+	font-size: 14px;
+	color: #c7d5e0;
+	font-weight: bold;
+	border-bottom: 2px solid #194660;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.goods_buy {
+	padding: 15px;
+	color: #ffcc6a;
+	font-size: 13px;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: 300;
+}
+
+.goods_buy .ask {
+	margin: 30px 0 10px 0;
+	color: #c6d4df;
+}
+
+.goods_buy_btn {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 15px 0 0 0;
+}
+
+.goods_buy_btn a {
+	border: none;
+	padding: 1px;
+	margin: 13px;
+	cursor: pointer;
+	text-decoration: none !important;
+	color: #D2E885 !important;
+	background: linear-gradient(to bottom, rgba(121, 153, 5, 1) 5%, rgba(83, 105, 4, 1) 95%);
+	border-radius: 2px;
+	display: block;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.goods_buy_btn a span {
+	font-size: 15px;
+	padding: 0 15px;
+}
+
+.cart_content_left_bottom {
+	display: flex;
+	flex-direction: column;
+}
+
+.removeAll {
+	color: #56707f;
+	text-decoration: underline;
+	margin-left: auto;
+}
+
+.cart_content_left_bottom a:hover {
+	text-decoration: none;
+	color: #66c0f4;
+}
+
+.btnv6_blue_hoverfade {
+	border-radius: 2px;
+	border: none;
+	padding: 1px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none !important;
+	color: #67c1f5 !important;
+	background: rgba(103, 193, 245, 0.2);
+	font-size: 12px;
+}
+
+.btnv6_blue_hoverfade span {
+	padding: 0 15px;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.cart_tip {
+	margin-top: 30px;
+}
+
+.cart_tip p {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 0 10px;
+	font-size: 17px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-family: "Motiva Sans", Sans-serif;
+	padding-top: 2px;
+}
+
+.cart_digital_notice {
+	background: rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	min-height: 57px;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.cart_digital_notice img {
+	height: 57px;
+	width: 68px;
+}
+
+.cart_digital_notice_content {
+	margin-left: 15px;
+	color: #c6d4df;
+}
+
+.cart_digital_notice_content h4 {
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Motiva Sans", Sans-serif;
+}
+
+.cart_digital_notice_content p {
+	color: #c6d4df;
+	font-family: "Motiva Sans", Sans-serif;
+	font-size: 12px;
+	margin: 0;
+}
+
+/* 体右 */
+.cart_content_right {
+	margin-left: 10px;
+}
+
+.offer {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.offer img {
+	width: 308px;
+	height: auto;
+}
+
+.discount {
+	color: #acdbf5;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+.push_goods {
+	margin-top: 40px;
+}
+
+.push_goods h2 {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 0 10px;
+	font-size: 17px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	padding-top: 2px;
+}
+
+.push_games {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 3px;
+	grid-row-gap: 3px;
+}
+
+.push_games div {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.push_games div span {
+	color: #acdbf5;
+	font-size: 11px;
+}

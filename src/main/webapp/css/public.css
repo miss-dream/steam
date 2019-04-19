@@ -1,0 +1,327 @@
+/*初始化  reset*/
+body, button, dd, dl, dt, h1, h2, h3, h4, h5, h6, input, li, ol, p, td,
+	ul {
+	margin: 0;
+	padding: 0
+}
+
+body, button, input {
+	font: 12px/1.5 tahoma, arial, 'Arial, Helvetica, sans-serif;',
+		\5b8b\4f53, sans-serif
+}
+
+h1, h2, h3, h4, h5, h6, button, input {
+	font-size: 100%
+}
+
+ol, ul {
+	list-style: none
+}
+
+a {
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: none
+}
+
+fieldset, img {
+	border: 0;
+	vertical-align: top;
+}
+
+a, button {
+	cursor: pointer;
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+	/*IE/7/6*/
+}
+
+.nospance {
+	white-space: nowrap;
+}
+
+.display_none {
+	display: none;
+}
+
+.display_block {
+	display: block;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	color: #D5D6E2;
+}
+
+input {
+	font-family: "Motiva Sans", Sans-serif;
+	color: #fff;
+	box-shadow: 1px 1px 0px #45556c;
+}
+
+.red-color {
+	color: red;
+}
+/*头部 开始*/
+#header {
+	height: 105px;
+	width: 100%;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* 头左 */
+.header_left {
+	margin-left: auto;
+	padding-top: 30px;
+}
+
+/* 头中 */
+.header_middle {
+	padding: 40px;
+}
+
+.header_middle ul {
+	padding-left: 40px;
+	list-style-type: none;
+	display: flex;
+}
+
+.header_middle ul li {
+	margin-right: 16px;
+}
+
+.header_middle ul li a {
+	font-size: 14px;
+	color: darkgray;
+	text-decoration: none;
+}
+
+/* 头右 */
+.header_right {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.header_right div {
+	margin-top: 5px;
+}
+
+.game_install span {
+	background-color: #5c7e10;
+	font-size: 11px;
+	padding: 5px 10px;
+	color: #FFFFFF !important;
+	border-radius: 2px;
+}
+
+.game_login span {
+	display: inline-block;
+	font-size: 11px;
+	padding: 0 10px;
+	border-right: 1px solid #ffffff;
+}
+
+.user_function {
+	z-index: 2;
+	border: 1px solid #171a21; 
+	background-color : #171a21;
+	position: absolute;
+	padding: 7px 10px;
+	font-size: 13px;
+	right: 167px;
+	display:none;
+}
+
+.game_language a {
+	display: inline-block;
+	font-size: 11px;
+	padding: 0 10px;
+}
+
+.game_language ul {
+	display: none;
+	border: 1px solid #171a21;
+	background-color: #171a21;
+	position: absolute;
+	right: 29px;
+}
+
+/*头部 结束*/
+
+/*尾部 开始*/
+#footer {
+	width: 100%;
+	background-color: black;
+	padding: 40px 0;
+	font-size: 12px;
+	color: darkgray;
+}
+
+.footer_top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.footer_top div {
+	margin: 0 8px;
+}
+
+.footer_bottom {
+	display: flex;
+	justify-content: center;
+}
+
+.footer_bottom ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.footer_bottom ul li {
+	font-size: 13px;
+	padding: 0px 10px;
+	border-right: 1px solid #61686D;
+	;
+}
+
+.border_none {
+	border: none !important;
+}
+
+/*尾部 结束*/
+#header a {
+	color: darkgray;
+}
+
+#footer a {
+	color: #C6D4DF;
+}
+
+#header a:hover, #footer a:hover {
+	color: #FFFFFF;
+}
+
+.display_flex {
+	display: flex;
+	align-items: flex-end;
+}
+
+/* 导航栏 开始*/
+.p_b_r_t {
+	display: flex;
+}
+
+.p_b_r_t_son {
+	width: 78.84px;
+	color: #d9dadd;
+	font-size: 13px;
+	background: rgba(62, 126, 167, 0.8);
+	border-right: 1px solid rgba(16, 21, 25, 0.3);
+	line-height: 36px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Motiva Sans", Sans-serif;
+	position: relative;
+}
+
+.xinwen {
+	color: #d9dadd;
+}
+
+.nav_div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.p_b_r_t_grason {
+	width: 8.375rem;
+	display: none;
+	background: rgb(212, 223, 231);
+	position: absolute;
+	top: 32px;
+	left: 0rem;
+	z-index: 1;
+}
+
+.p_b_r_t_grason div {
+	padding: 0 0.4375rem;
+}
+
+.da {
+	white-space: nowrap;
+	text-align: left;
+}
+
+.da1 {
+	text-align: left;
+	padding-left: 13px;
+}
+
+.p_b_r_t_grason1_1 {
+	text-decoration: none;
+	color: black;
+}
+
+.p_b_r_t_son11 {
+	width: 455px;
+	background-color: rgb(53, 111, 149);
+}
+
+.p_b_r_t_son2 {
+	margin-left: auto;
+	width: 209px;
+	height: 29px;
+	margin-top: 3.5px;
+	background-color: rgb(49, 98, 130);
+	display: flex;
+}
+
+#input {
+	color: #0e1c25;
+	font-size: 14px;
+	margin-top: 1px;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	border: none;
+	background-color: transparent;
+	margin-left: 8px;
+	width: 180px;
+	outline: none;
+	line-height: 26px;
+}
+
+#img_02 {
+	width: 30px;
+	margin: 0px 0px;
+	float: right;
+}
+/* 导航栏结束 */
+
+/* 复选框 */
+.checkbox {
+	margin-right: 5px;
+}

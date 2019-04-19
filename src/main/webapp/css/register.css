@@ -1,0 +1,248 @@
+#page_body {
+	width: 100%;
+	height: 100%;
+	background: url(../img/beijing.png);
+
+}
+
+#page_body_da {
+	width: 940px;
+	height: 1160px;
+	margin: 30px auto;
+}
+
+#imgly2 {
+	float: left;
+	padding: 3px 3px;
+}
+
+.bcd {
+	list-style: none;
+	margin-left: -40px;
+
+}
+
+.bcd li {
+	float: left;
+	margin-left: 1px;
+	text-align: center;
+	padding-top: 5px;
+	height: 36px;
+	width: 90px;
+	color: black;
+	background-color: rgb(54, 111, 149);
+	line-height: 25px;
+	position: relative;
+}
+
+.bcd li ul {
+	list-style: none;
+	margin-left: -41px;
+	margin-top: 10px;
+}
+
+.bcd li ul li {
+	width: 120px;
+	height: 36px;
+	background-color: rgb(54, 111, 149);
+}
+
+#page_body_da_left {
+	width: 610px;
+	background-color: rgb(18, 53, 75);
+	margin-top: 15px;
+	float: left;
+}
+
+.ws {
+	font-size: 10px;
+}
+.ws1{
+	color: white; 
+	font-size: 14px;
+}
+.padding-top{
+	padding-top:25px;
+	display:inline-block;
+}
+.kuang {
+	width: 270px;
+	border-radius: 3px;
+	background-color: rgb(37, 85, 112);
+}
+.tip{
+	color:red;
+	padding-top:25px;
+	display:inline-block;
+}
+
+.ln5 {
+	margin: 0px 15px;
+}
+
+.cjzh {
+	font-size: 30px;
+	margin-top: 30px;
+	width: 100%;
+	height: 60px;
+	clear: left;
+	line-height: 60px;
+	font-size: 30px;
+	color: #d6d7d8;
+}
+
+.page_body_da_content {
+	display: flex;
+}
+
+
+#yinsi {
+	width: 570px;
+	height: 380px;
+	overflow: auto;
+	font-size: 10px;
+	background-color: rgb(22, 32, 45);
+	color: lightgray;
+	border: 1px solid black;
+	padding-left: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+#yinsi a {
+	color: white;
+}
+
+.kuang1 {
+	height: 27px;
+	width: 230px;
+	border-radius: 3px;
+	border: 1px solid gray;
+	background-color: rgb(15, 42, 59);
+}
+
+.display_flex {
+	display: flex;
+	align-items: center !important;
+}
+
+.nospace {
+	white-space: nowrap;
+}
+
+#code {
+	width: 80px;
+	height: 30px;
+	font-size: 20px;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+	border: 0;
+	letter-spacing: 2px;
+	color: blue;
+}
+
+#yzm {
+	height: 40px;
+}
+
+#tip_username {
+	position: absolute;
+	left: 238px;
+	top: 371px;
+}
+
+#tip_psw2 {
+	position: absolute;
+	left: 238px;
+	top: 435px;
+}
+
+#tip_psw1 {
+	position: absolute;
+	left: 238px;
+	top: 499px;
+}
+
+#tip_username1 {
+	position: absolute;
+	left: 238px;
+	top: 563;
+
+}
+
+#tip_username2 {
+	position: absolute;
+	left: 238px;
+	top: 627;
+
+}
+
+#tip_yzmdf {
+	position: absolute;
+	left: 238px;
+	top: 700;
+}
+#agree-tip{
+	padding:0;
+}
+/* 体右部 */
+#page_body_da_right {
+	width: 300px;
+	height: 616px;
+	color: #FFFFFF;
+	background-color: rgb(18, 53, 75);
+	margin-left: 30px;
+	padding: 10px;
+}
+
+#page_body_da_right h2 {
+	font-size: 14px !important;
+	margin-bottom: 10px;
+	color: #ffffff;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: "Motiva Sans", Sans-serif;
+}
+
+#page_body_da_right p {
+	margin: 10px 0;
+	color: #c6d4df;
+}
+
+ul#why_list {
+	list-style-position: inside;
+	list-style-type: square;
+	line-height: 22px;
+	color: #c6d4df;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+.ln5 {
+	margin: 22px 15px;
+}
+
+.btn {
+	color: #67c1f5 !important;
+	border: 0px;
+	height: 28px;
+	width: 100px;
+	font-size: 16px;
+	background: rgb(15, 77, 106);
+}
+
+.button2 input{
+	background-color: rgb(39, 65, 85);
+	width: 70px;
+	height: 37px;
+	border: 0px;
+	color: #67c1f5;
+	font-size: 18px;
+}
+.display_flex {
+    display: flex;
+    align-items: center;
+}
